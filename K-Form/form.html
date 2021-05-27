@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-Form</title>
+    <link rel="stylesheet" href="form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h2 id="heading">K-form</h2>
+    <form action="backend.php">
+    <div class="details">
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" name=myname id="name" class="textbox">
+        </div>
+
+        <div><label for="name">Roll: </label>
+            <input type="text" name=myroll id="roll" class="textbox">
+        </div>
+
+        <div><label for="name">Department-Section: </label>
+            <input type="text" name=myid id="dept-section" class="textbox">
+        </div>
+
+        <div><label for="name">Favourite Subject: </label>
+            <input type="text" name=myFavSub id="favSub" class="textbox">
+        </div>
+        <div>
+            <input  class="button" type="submit" value="Submit" name="Submit button">
+            <input  class="button" type="reset" value="Clear Form" name="Reset button">
+        </div>
+    </div>
+    <div id="image1">
+        <img src="https://source.unsplash.com/featured/?{develop},{technology}/1600x900" alt="Technology image" height="60%" width="60%">
+    </div>
+</form>
+</body>
+
+</html>

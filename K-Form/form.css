@@ -1,0 +1,36 @@
+*{
+    background-image:url('https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    border: 0px;
+    overflow-x: hidden;
+}
+#heading{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom:50px;
+}
+.details{
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    margin-left: 20px;
+    float: left;
+}
+.textbox{
+    border: 2px solid rgb(19, 7, 7);
+    border-radius: 3px;
+    font-size: 25px;
+    font-family:  'Bitter', serif;
+    margin:10px;
+    margin-left:0px;
+    padding: 5px;
+    background: rgb(118, 198, 255, 0.25); 
+}
+.button{
+    font-size:20px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+#image1{
+    float: right;
+    margin-right:-150px;
+    clear: both;}
